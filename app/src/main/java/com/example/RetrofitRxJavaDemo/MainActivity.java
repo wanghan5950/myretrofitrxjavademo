@@ -1,14 +1,14 @@
-package com.example.my_retrofit_rxjava_demo;
+package com.example.RetrofitRxJavaDemo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.my_retrofit_rxjava_demo.http.AppSchedulers;
-import com.example.my_retrofit_rxjava_demo.http.BaseObserver;
-import com.example.my_retrofit_rxjava_demo.http.HttpConfig;
-import com.example.my_retrofit_rxjava_demo.http.HttpManager;
+import com.example.RetrofitRxJavaDemo.http.AppSchedulers;
+import com.example.RetrofitRxJavaDemo.http.BaseObserver;
+import com.example.RetrofitRxJavaDemo.http.HttpConfig;
+import com.example.RetrofitRxJavaDemo.http.HttpManager;
 
 public class MainActivity extends AppCompatActivity {
 

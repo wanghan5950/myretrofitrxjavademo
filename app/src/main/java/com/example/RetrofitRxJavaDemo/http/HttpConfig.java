@@ -1,11 +1,10 @@
-package com.example.my_retrofit_rxjava_demo.http;
+package com.example.RetrofitRxJavaDemo.http;
 
 import java.util.concurrent.TimeUnit;
 
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
-import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
  * HttpUrl管理类
@@ -33,7 +32,7 @@ public class HttpConfig {
             //配置OkHttp
             .client(client)
             //添加Gson转换器
-            .addConverterFactory(GsonConverterFactory.create())
+            .addConverterFactory(CustomerConverterFactory.create(CustomGson.buildGson()))
             //添加RxJava适配器
             .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
             .build()

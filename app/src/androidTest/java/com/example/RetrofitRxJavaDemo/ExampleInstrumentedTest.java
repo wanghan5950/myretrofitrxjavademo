@@ -1,4 +1,4 @@
-package com.example.my_retrofit_rxjava_demo;
+package com.example.RetrofitRxJavaDemo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

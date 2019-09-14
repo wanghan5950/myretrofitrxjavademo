@@ -1,10 +1,10 @@
-package com.example.my_retrofit_rxjava_demo.http;
+package com.example.RetrofitRxJavaDemo.http;
 
 import io.reactivex.Observer;
 import io.reactivex.disposables.Disposable;
 
 /**
- *
+ * 观察者
  * @param <T>
  */
 public abstract class BaseObserver<T> implements Observer<Result<T>> {

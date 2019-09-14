@@ -1,6 +1,6 @@
-package com.example.my_retrofit_rxjava_demo.http;
+package com.example.RetrofitRxJavaDemo.http;
 
-import com.example.my_retrofit_rxjava_demo.Result.TestResult;
+import com.example.RetrofitRxJavaDemo.Result.TestResult;
 
 import io.reactivex.Observable;
 import retrofit2.http.DELETE;

@@ -1,4 +1,4 @@
-package com.example.my_retrofit_rxjava_demo;
+package com.example.RetrofitRxJavaDemo;
 
 import android.app.Application;
 

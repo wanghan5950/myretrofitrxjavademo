@@ -1,10 +1,10 @@
-package com.example.my_retrofit_rxjava_demo.http;
+package com.example.RetrofitRxJavaDemo.http;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
-import com.example.my_retrofit_rxjava_demo.MyApplication;
+import com.example.RetrofitRxJavaDemo.MyApplication;
 
 /**
  * 网络状态工具类

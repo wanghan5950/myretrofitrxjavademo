@@ -1,4 +1,4 @@
-package com.example.my_retrofit_rxjava_demo.Result;
+package com.example.RetrofitRxJavaDemo.Result;
 
 public class TestResult {
 
